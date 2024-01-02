@@ -36,7 +36,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework",
-            .upToNextMajor(from: "6.12.0")
+            .upToNextMajor(from: "6.4.0")
         ),
         .package(
             url: "https://github.com/bizz84/SwiftyStoreKit.git",
