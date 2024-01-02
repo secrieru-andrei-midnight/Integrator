@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -36,7 +36,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework",
-            .upToNextMajor(from: "6.4.0")
+            .exact("6.4.0")
         ),
         .package(
             url: "https://github.com/bizz84/SwiftyStoreKit.git",
